@@ -1,0 +1,75 @@
+/*------------------------
+          BASE
+------------------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+.page-title {
+  margin-bottom: 10px;
+  font-size: 24px; }
+
+.page-info {
+  margin-bottom: 30px;
+  font-size: 16px; }
+  .page-info span {
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: #D6DADA;
+    color: #545557; }
+
+/*------------------------
+          LAYOUT
+------------------------*/
+.container {
+  width: 980px;
+  margin: 100px auto; }
+
+.logo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+  background: url(logo.png) 0 0 no-repeat;
+  background-size: 100%; }
+
+/*------------------------
+          COMPONENTS
+------------------------*/
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1880FF;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #80E0FF; }
+.users {
+  width: 100%;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #ededed;
+  list-style: none; }
+  .users__empty {
+    margin-top: 20px; }
+
+.user {
+  margin-bottom: 10px; }
+  .user:last-child {
+    margin-bottom: 0; }
+  .user__name {
+    display: inline-block;
+    font-weight: bold; }
+  .user__email {
+    display: inline-block;
+    margin: 0 10px; }
+  .user__website a {
+    text-decoration: none;
+    color: #b769e5; }
